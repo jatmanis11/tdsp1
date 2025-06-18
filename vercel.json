@@ -8,14 +8,10 @@
                 "maxLambdaSize": "15mb",
                 "runtime": "python3.9"
             }
-        },
+        }
         
     ],
     "routes": [
-        {
-            "src": "/static/(.*)",
-            "dest": "/static/$1"
-        },
         {
             "src": "/(.*)",
             "dest": "api/wsgi.py"
