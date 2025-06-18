@@ -17,11 +17,7 @@
       }
     }
   ],
-  "routes": [
-    // your routes section (cut off in screenshot)
-  ]
-}
-
+ 
     "routes": [
         {
             "src": "/(.*)",
